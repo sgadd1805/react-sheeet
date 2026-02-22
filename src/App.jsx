@@ -767,11 +767,11 @@ export default function App() {
     <div style={{
       minHeight:"100vh", background:S.bg, color:S.text,
       backgroundImage:"radial-gradient(ellipse 80% 40% at 50% -10%, rgba(99,102,241,0.12), transparent)",
-      padding:"36px 16px", fontFamily:"system-ui, sans-serif",
+      padding:"24px", fontFamily:"system-ui, sans-serif",
     }}>
       <style>{`@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');*{box-sizing:border-box;margin:0;padding:0;}::-webkit-scrollbar{width:5px;background:#0d0d1a;}::-webkit-scrollbar-thumb{background:#1e293b;border-radius:3px;}`}</style>
 
-      <div style={{ maxWidth:740, margin:"0 auto" }}>
+      <div style={{ width:"100%" }}>
         <div style={{ textAlign:"center", marginBottom:28 }}>
           <div style={{ display:"flex", justifyContent:"center", gap:5, marginBottom:12, flexWrap:"wrap" }}>
             {SECTIONS.map((s,i) => (
